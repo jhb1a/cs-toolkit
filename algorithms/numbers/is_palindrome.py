@@ -8,6 +8,9 @@ Idea:
 Complexity:
     Time: O(log n) - proportional to number of digits
     Space: O(1) - constant space
+
+Returns:
+    True if the number is a palindrome, otherwise false
 """
 
 

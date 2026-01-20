@@ -8,6 +8,9 @@ Idea:
 Complexity:
     Time: O(n) - single pass through the array
     Space: O(n) - hash map of seen values
+
+Returns:
+    Indices of the two numbers whose values sum to the target
 """
 
 from typing import List
