@@ -36,14 +36,14 @@ def add_two_numbers(l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[
             sum -= 10
             carry = 1
 
-        result_array.append(sum)  # Build the array
+        result_array.append(sum)
 
         if l1:
             l1 = l1.next
         if l2:
             l2 = l2.next
 
-    return build_list(result_array)  # Build the list
+    return build_list(result_array)
 
 
 if __name__ == "__main__":
