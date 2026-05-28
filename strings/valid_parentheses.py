@@ -24,7 +24,7 @@ Example:
 """
 
 
-def valid_parentheses(s: str) -> bool | str:
+def valid_parentheses(s: str) -> bool:
     matching = {")": "(", "]": "[", "}": "{"}
     stack = []
 
