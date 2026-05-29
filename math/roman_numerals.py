@@ -38,14 +38,11 @@ class RomanNumerals:
 
         Args:
             num: Integer between 1 and 3999 (inclusive)
-
         Returns:
             Roman numeral representation as a string
-
         Raises:
             TypeError: If num is not an integer
             ValueError: If num is outside the valid range (1-3999)
-
         Complexity:
             Time: O(1) - Fixed number of iterations (at most 13)
             Space: O(1) - Result string length bounded by constant (at most 15)
@@ -76,13 +73,10 @@ class RomanNumerals:
 
         Args:
             roman: Roman numeral string (case-insensitive)
-
         Returns:
             Integer value of the Roman numeral
-
         Raises:
             TypeError: If roman is not a string
-
         Complexity:
             Time: O(n) - Where n is the length of the input string
             Space: O(1) - Only uses constant extra space

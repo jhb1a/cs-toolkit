@@ -11,10 +11,14 @@
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
   "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
   "editor.rulers": [
     100
   ],
-  "python-envs.pythonProjects": []
+  "files.exclude": {
+    "**/__pycache__": true
+  }
 }

@@ -4,11 +4,9 @@ Palindrome Number - Reverse Half Method
 Idea:
     Reverse only the second half of digits and compare to first half.
     Stop when reversed_half >= x (half the digits processed).
-
 Complexity:
     Time: O(log n) - proportional to number of digits
     Space: O(1) - constant space
-
 Returns:
     True if the number is a palindrome, otherwise false
 """

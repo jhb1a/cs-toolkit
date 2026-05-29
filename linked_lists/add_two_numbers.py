@@ -5,18 +5,16 @@ Idea:
     Each node contains a single digit, and the result is constructed by
     summing corresponding digits with carry propagation. Traversal continues
     until both lists are exhausted and no carry remains.
-
 Complexity:
     Time: O(n) - each list is traversed once
     Space: O(n) - result digits are accumulated before list construction
-
 Returns:
     Head of a new linked list representing the sum in the same reversed format.
 """
 
 from typing import Optional
 
-from data_structures.linked_lists import ListNode, build_list
+from linked_lists.linked_lists import ListNode, build_list
 
 
 def add_two_numbers(l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
