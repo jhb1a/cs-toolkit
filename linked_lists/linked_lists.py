@@ -71,13 +71,3 @@ def print_list(head: Optional[ListNode]) -> None:
         vals.append(str(curr.val))
         curr = curr.next
     print(" -> ".join(vals) if vals else "Empty list")
-
-
-def LL(values: list[int]) -> Optional[ListNode]:
-    """
-    Short-hand builder for quick testing.
-
-    Example:
-        l1 = LL([2,4,3])
-    """
-    return build_list(values)
